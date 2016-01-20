@@ -5,6 +5,8 @@
 # import lxml.html
 #
 print 'hello'
+urltoscrape = "http://www.parliament.uk/mps-lords-and-offices/standards-and-interests/register-of-lords-interests/"
+print urltoscrape
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
 #
