@@ -7,8 +7,13 @@
 print 'hello'
 urltoscrape = "http://www.parliament.uk/mps-lords-and-offices/standards-and-interests/register-of-lords-interests/"
 print urltoscrape
-urltoscrape = urltoscrape+"p1"
-print urltoscrape
+listylist = ["p1","p2","p3"]
+for blah in listylist:
+print blah
+fullurl = urltoscrape+blah
+print fullurl
+
+
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
 #
