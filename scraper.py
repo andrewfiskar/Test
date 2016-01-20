@@ -9,7 +9,7 @@ urltoscrape = "http://www.parliament.uk/mps-lords-and-offices/standards-and-inte
 print urltoscrape
 listylist = ["p1","p2","p3"]
 for blah in listylist:
-print blah
+print urltoscrape
 fullurl = urltoscrape+blah
 print fullurl
 
