@@ -4,14 +4,11 @@
 # import scraperwiki
 # import lxml.html
 #
-print 'hello'
-urltoscrape = "http://www.parliament.uk/mps-lords-and-offices/standards-and-interests/register-of-lords-interests/"
-print urltoscrape
-listylist = ["p1","p2","p3"]
-for blah in listylist:
-print urltoscrape
-fullurl = urltoscrape+blah
-print fullurl
+myvar = 'He said "hello".'
+myage = 25
+mylist = ['this', 'that', 'theother']
+mynumlist = [1, 15, 25, 35]
+listlength = len(mylist)
 
 
 # # Read in a page
