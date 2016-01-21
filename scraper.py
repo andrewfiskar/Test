@@ -6,10 +6,10 @@
 #
 myvar = 'He said "hello".'
 myage = 25
-mylist = ['this', 'that', 'theother']
+mylist = ['Lord Maude', 'Lord Patten ', 'Baroness Bottomley']
 mynumlist = [1, 15, 25, 35]
 listlength = len(mylist)
-
+#print mylist
 
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
